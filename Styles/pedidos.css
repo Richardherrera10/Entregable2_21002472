@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:auto auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.titulos{
+  color:white;
+  font-family: 'Dosis', sans-serif;
+  font-size: 24px;
+}
+.feedback-input{
+  font-family:'Barlow Condensed', sans-serif;
+  color: white;
+  font-size: 22px;
+}
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 50%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  font-weight:700;
+  margin: 20px auto auto auto;
+  display: block;
+}
+[type="submit"]:hover { background:#CC4949; }
+
+#proveedores{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  background:#9e0929;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  width: 50%;
+  font-size:16px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  font-weight:700;
+  margin: 20px auto auto auto;
+  display: block;
+}

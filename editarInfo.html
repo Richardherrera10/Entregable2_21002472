@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title> Cambiar Información </title>
+            <link rel="stylesheet" href="Styles/editarInfo.css">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>  
+            <label class="titulos" for="codigo"> Código Producto</label>    
+            <input name="codigo" id="codigo"type="text" class="feedback-input" readonly/>   
+            
+            <label class="titulos" for="nombre">Nombre</label>    
+            <input name="nombre" id="nombre"type="text" class="feedback-input"/> 
+
+            <label class="titulos" for="categoria">Categoría</label>    
+            <input name="categoria" id="categoria"type="text" class="feedback-input"/> 
+
+            <label class="titulos" for="descripcion">Descripcion</label>
+            <textarea name="descripcion" id="descripcion" class="feedback-input" placeholder="Descripcion Artículo"></textarea>
+
+            <label class="titulos" for="existencia">Existencia</label>    
+            <input name="existencia" id="existencia"type="text" class="feedback-input"/> 
+
+            <input type="submit" value="SUBMIT"/>
+          </form>
+        
+        <script type="text/javascript" src="editarInfo.js"> </script>
+    </body>
+</html>
+
+
+
