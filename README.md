@@ -2,7 +2,7 @@
 
 ### Primera ventana: Inicio ingreso sesión usuario.
 
-  #### Empleado Ejemplo: 
+    Empleado Ejemplo: 
 
     Usuario: vjavier.1
     Contraseña: javier123
