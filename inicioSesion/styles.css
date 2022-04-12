@@ -5,6 +5,14 @@
   padding: 8% 0 0;
   margin: auto;
 }
+
+#incorrecto{
+  padding-top: 5px;
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+  visibility: hidden;
+}
 .form {
   position: relative;
   z-index: 1;

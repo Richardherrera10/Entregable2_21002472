@@ -20,7 +20,17 @@ form { max-width:420px; margin:auto auto; }
   box-sizing: border-box;
   outline:0;
 }
-
+#hecho{
+  color:white;
+  font-family:'Barlow Condensed', sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+  visibility: hidden;
+}
 .titulos{
   color:white;
   font-family: 'Dosis', sans-serif;
@@ -31,7 +41,6 @@ form { max-width:420px; margin:auto auto; }
   color: white;
   font-size: 22px;
 }
-
 .feedback-input:focus { border:2px solid #CC4949; }
 
 textarea {
@@ -39,6 +48,8 @@ textarea {
   line-height: 150%;
   resize:vertical;
 }
+
+
 
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -57,3 +68,24 @@ textarea {
   display: block;
 }
 [type="submit"]:hover { background:#CC4949; }
+
+#proveedores{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  background:#9e0929;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  width: 50%;
+  font-size:16px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  font-weight:700;
+  margin: 20px auto auto auto;
+  display: block;
+}
+
+#codigo, #nombre{
+  cursor: default;
+}

@@ -2,32 +2,30 @@
 <html>
     <head>
         <title> Nuevo Pedido </title>
-            <link rel="stylesheet" href="Styles/pedidos.css">
+            <link rel="stylesheet" href="pedidos.css">
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script type = "text/JavaScript" src = "https://MomentJS.com/downloads/moment.js"></script>
     </head>
     <body>
         <form>  
-            <label class="titulos" for="codigo"> Código Producto</label>    
+            <label class="titulos" for="codigo" > Código Producto</label>    
             <input name="codigo" id="codigo"type="text" class="feedback-input" readonly/>   
             
             <label class="titulos"for="nombre">Nombre</label>    
-            <input name="nombre" id="nombre"type="text" class="feedback-input"/> 
+            <input name="nombre" id="nombre"type="text" class="feedback-input" readonly/> 
 
             
             <label class="titulos" for="proveedores">Eliga proveedor:</label>
               <select name="proveedores" id="proveedores">
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="opel">Opel</option>
-                <option value="audi">Audi</option>
               </select>
                 <br><br>
               
             <label class="titulos" for="Cantidad">Cantidad deseada</label>    
             <input name="Cantidad" id="Cantidad"type="text" class="feedback-input"/> 
 
-            <input type="submit" value="Confirmar"/>
+            <input id="confirmar" type="submit" value="Confirmar"/>
+            <div id="hecho"> </div>
         </form>
         
         <script type="text/javascript" src="pedidos.js"> </script>
