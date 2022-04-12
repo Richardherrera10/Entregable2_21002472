@@ -6,7 +6,7 @@
 
     Usuario: vjavier.1
     Contraseña: javier123
-
+      Utilizó sha2 en mysql para encriptar
       Regex para determinar patrones correctos para escribir contraseñas
       
  
